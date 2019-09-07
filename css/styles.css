@@ -1,0 +1,75 @@
+body {background-color:black; color:white;}
+
+figure { display: block; }
+
+header, main, nav, footer {text-align:center;}
+
+footer 
+{ 
+    display: flex; 
+    color:yellow; 
+    font-size: 0.8em;
+    justify-content:center;
+}
+
+h1
+{
+    font-family: 'Chilanka', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    padding:15px;
+}
+            
+.link { background-color:green; text-align:center;}
+.select {background-color:blue; padding: .5px;}
+
+nav a 
+{
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: green;
+}
+nav a:hover 
+{
+    border-bottom:2px green solid;
+    font-size: 2em;
+    transition: .9s;
+}
+main 
+{
+    display:flex;
+    justify-content:center;
+}
+table
+{
+    margin: 0px auto; /*centers table*/
+}
+td 
+{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong
+{
+    color: white;
+}
+#table-header
+{
+    background-color: black;
+}
+.table-row
+{
+    background-color: green;
+}
+ul
+{
+    width:500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.hobby
+{
+    color:yellow;
+}
